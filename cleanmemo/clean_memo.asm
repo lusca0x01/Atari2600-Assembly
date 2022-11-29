@@ -18,7 +18,6 @@ _clean:
      inx              ; x++
      bcs _stop        ; Branch if carry was set
 
-
      jmp _clean       ; Jump (Like an GOTO) to label clean (Loop)
 
 _stop:
