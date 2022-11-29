@@ -18,7 +18,7 @@ _clean:
      inx              ; x++
      bcs _stop        ; Branch if carry was set
 
-     jmp _clean       ; Jump (Like an GOTO) to label clean (Loop)
+     jmp _clean       ; Jump (Like a GOTO) to label clean (Loop)
 
 _stop:
      org $FFFC        ; Fill the ROM size to exactly 4KB
